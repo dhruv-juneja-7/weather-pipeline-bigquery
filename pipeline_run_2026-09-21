@@ -1,0 +1,9 @@
+2026-09-21 22:46:03,188 - INFO - daily_weather_table created successfully.
+2026-09-21 22:46:09,146 - INFO - the-looker-ecommerce-dataset.open_meteo.daily_weather_staging created successfully.
+2026-09-21 22:46:13,336 - INFO - Loaded 17 rows into the-looker-ecommerce-dataset.open_meteo.daily_weather_staging.
+2026-09-21 22:46:16,914 - INFO - Merge job successful: 17 affecting in the-looker-ecommerce-dataset.open_meteo.daily_weather.
+2026-09-21 22:52:04,584 - INFO - daily_weather_table created successfully.
+2026-09-21 22:52:40,695 - INFO - daily_weather_table created successfully.
+2026-09-21 22:52:44,029 - INFO - the-looker-ecommerce-dataset.open_meteo.daily_weather_staging created successfully.
+2026-09-21 22:52:50,289 - INFO - Loaded 7 rows into the-looker-ecommerce-dataset.open_meteo.daily_weather_staging.
+2026-09-21 22:52:53,239 - INFO - Merge job successful: 7 affecting in the-looker-ecommerce-dataset.open_meteo.daily_weather.

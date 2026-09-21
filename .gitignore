@@ -1,0 +1,19 @@
+# Credentials — never commit these
+*.json
+!package.json
+
+# Virtual environment
+myvenv/
+.myvenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Scratch / practice files
+practice.py
+gcs_to_bigquery.py
+names/
