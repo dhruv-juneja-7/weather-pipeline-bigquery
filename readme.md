@@ -28,3 +28,9 @@ This project is meant to mimic an ELT pipeline used in real world use cases.
 1. Scheduling it using Apache Airflow.
 2. Optimizing it for bigger data.
 3. Using dbt model to test the schema of incoming data before loading.
+
+# Files -
+
+[gcs_to_bigquery_v2.py](gcs_to_bigquery_v2.py)
+
+[to_gcs.py](to_gcs.py)
