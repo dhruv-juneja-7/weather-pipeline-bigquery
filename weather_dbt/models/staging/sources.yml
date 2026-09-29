@@ -1,0 +1,9 @@
+# models/example/sources.yml
+version: 2
+
+sources:
+  - name: open_meteo
+    database: the-looker-ecommerce-dataset
+    schema: open_meteo
+    tables:
+      - name: daily_weather

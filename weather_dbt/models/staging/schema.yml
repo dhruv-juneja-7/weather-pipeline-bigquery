@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_daily_weather
+    description: "A staging table before aggreagating the data."
+    columns:
+      - name: weather_time
+        description: "The primary key fot this table"
+        data_tests:
+          - unique
+          - not_null
+  - name: mart_weather_trends
+    description: aggregations on top of staging tables
+    columns:
+      - name: rolling_7_day_avg
+        description: 7 days rolling average of temperature_2m_max
+        data_tests:
+          - not_null
