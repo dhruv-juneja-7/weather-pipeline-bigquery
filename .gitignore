@@ -17,3 +17,18 @@ __pycache__/
 practice.py
 gcs_to_bigquery.py
 names/
+
+# dbt files
+
+weather_dbt/logs/
+weather_dbt/target/
+weather_dbt/dbt_packages/
+weather_dbt/.user.yml
+
+# logs
+
+logs/
+
+# pipelines
+
+pipeline*

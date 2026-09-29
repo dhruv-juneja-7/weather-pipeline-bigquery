@@ -23,11 +23,20 @@ This project is meant to mimic an ELT pipeline used in real world use cases.
 2. The service account should have admin level access to BigQuery and GCS.
 3. install google cloud, pandas, request
 
+# dbt model
+
+- Create a dbt model that first fetches the data, cleans it and insert it in a staging table. Then using this staging table a cleaned mart table is created in which aggregations is performed.
+
+- Lineage graph for the flow of data created using dbt
+
+![alt text](image.png)
+
+- Also created dbt tests on columns for checking non-null values and unqiue values.
+
 # What's next
 
 1. Scheduling it using Apache Airflow.
 2. Optimizing it for bigger data.
-3. Using dbt model to test the schema of incoming data before loading.
 
 # Files -
 
